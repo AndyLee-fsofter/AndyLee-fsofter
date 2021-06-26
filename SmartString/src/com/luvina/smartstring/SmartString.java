@@ -43,7 +43,7 @@ public class SmartString {
 			}
 			System.out.print(sortString(s.toString())+" ");
 			//reset lại chuỗi stringbuilder s
-			s.delete(0, s.length()-1);
+			s.delete(0, s.length());
 		}
 		System.out.println();
 	}
